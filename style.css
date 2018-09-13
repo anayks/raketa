@@ -84,6 +84,10 @@ input[type="text"], input[type="password"]{
   border-radius: 4px;
 }
 
+.log-input {
+  font-family: monospace;
+}
+
 .dws-submit{
   padding: 13px 36px;
   margin: 5px 0 20px 0;
