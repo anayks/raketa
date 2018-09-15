@@ -64,7 +64,7 @@
   $query = "SELECT COUNT(*) from `guest` where `ip` = '".$ip."' and `date` = '".date('d.m.y')."'";
   $answer = mysql_query($query);
   $row = mysql_fetch_row($answer);
-  if($row == 0)
+  if($row[0] == 0)
   {
     $query = "INSERT INTO `guest` (`ip`, `date`) values ('".$ip."', '".date('d.m.y')."')";
     mysql_query($query);
