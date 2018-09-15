@@ -115,6 +115,14 @@ form{
   text-align: center;
 }
 
+.vhodR{
+  width: 450px;
+  height: 500px;
+  background-color: #21C7F1;
+  margin: 150px auto 0 auto;
+  text-align: center;
+}
+
 .vhod img{
   width: 120px;
   height: 120px;
@@ -122,6 +130,23 @@ form{
   border: 5px solid black;
   border-radius: 50%;
   background: black;
+}
+
+.vhodR img{
+  width: 120px;
+  height: 120px;
+  margin: -60px 0 30px 0;
+  border: 5px solid black;
+  border-radius: 50%;
+  background: black;
+}
+
+.WrongLog{
+  margin-left: 75px;
+  background: red;
+  height: 30px;
+  width: 300px;
+  display: none;
 }
 
 input[type="text"], input[type="password"]{
@@ -332,7 +357,9 @@ footer nav a:hover{
   margin-right: 20px;
 }
 
-
+.Cont1 {
+  min-height: calc(100vh - 70px);
+}
 
 
 
