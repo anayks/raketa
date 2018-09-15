@@ -23,7 +23,7 @@
   <div class="Zakaz">
     <div class="Zakaz1">
       <div class="Zakaz__item">
-           <h2>Заказать грузовик</h2>
+           <h2>Заказать</h2>
       </div>
     </div>
   </div>
@@ -61,7 +61,7 @@
   $sql = mysql_connect('triniti.ru-hoster.com', 'lelelMu9', 'B6k1i0Sc2l');
   mysql_select_db('lelelMu9');
   $ip = $_SERVER['REMOTE_ADDR'];
-  $query = "SELECT COUNT(*) from `guest` where `ip` = '".$ip." and `date` = '".date('d.m.y')."'";
+  $query = "SELECT COUNT(*) from `guest` where `ip` = '".$ip."' and `date` = '".date('d.m.y')."'";
   $answer = mysql_query($query);
   $row = mysql_fetch_row($answer);
   if($row == 0)

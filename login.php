@@ -19,6 +19,7 @@
   <div class="telo">
   <div class="vhod">
     <img src="img/logo3.png" alt="">
+      <div class="WrongLog">Неправильный логин или пароль</div>
       <div class="dws-input">
          <input type="text" id="login" name="username" placeholder="Введите имя пользователя" class="log-input">
       </div>
