@@ -16,7 +16,7 @@ body{
 }
 
 .VhodKn{
-  background: white;
+  background: #21C7F1;
   height: 60px;
   width: 100px;
   float: right;
@@ -24,18 +24,56 @@ body{
   margin-right: 20px;
 }
 
-.VhodKn a{
+.VhodKn{
+  padding-top: 6px;
+  padding-left: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+.FBlock{
+  height: 250px;
+  background: #21C7F1;
+  text-align: center;
+}
+
+.FBlock h1{
   color: black;
 }
 
-/*  КАРУСЕЛЬ   */
+.FB2{
+  padding-top: 100px;
+}
+
+.Zakaz{
+   display: flex;
+   background: black;
+   height: 400px;
+}
+
+.Zakaz1{
+  cursor: pointer;
+  background: #21C7F1;
+  height: 160px;
+  width: 20%;
+  margin-left: 40%;
+  padding-top: 62px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.Zakaz_item{
+  padding-top: 20px;
+}
+
+/*  КАРУСЕЛЬ которой нет  */
 .carousel{
   margin-top: 5%;
-  min-width: 80% !important;
-  height: 500px !important;
+  min-width: 80% ;
+  height: 500px ;
 }
 .carousel-inner img {
-  height: 500px !important;
+  height: 500px ;
   margin: 0 auto;
 }
 
@@ -102,6 +140,7 @@ input[type="text"], input[type="password"]{
   padding: 13px 36px;
   margin: 5px 0 20px 0;
   font-size: 13px;
+  cursor: pointer;
   color: #fff;
   background-color: black;
   border: none;
@@ -109,89 +148,6 @@ input[type="text"], input[type="password"]{
   margin-left: 150px;
 }
 
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-  background: #2A3940;
-}
-
-.mySlides {
-    display: none;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 .Shap{
   color: white;
   background-color: #2A3940;
@@ -315,17 +271,17 @@ nav{
   background: black;
 }
 .advanteges__container1{
-  background: #2A3940;
+  background: #21C7F1;
   display: flex;
   justify-content: center;
 }
 .advanteges__container1 p{
   margin-top: 5%;
-  color: white;
+  color: black;
 }
 .advanteges__container1 h2{
   margin-top: 7%;
-  color: white;
+  color: black;
 }
 .advanteges {
   padding-top: 70px;
@@ -351,7 +307,7 @@ nav{
 footer{
   width: 100%;
   height: auto;
-  background:#2A3940;
+  background:black;
   margin: 0 auto;
   text-align: center;
   padding-top: 25px;
