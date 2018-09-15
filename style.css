@@ -15,6 +15,30 @@ body{
   background: #22C8F2;
 }
 
+.VhodKn{
+  background: white;
+  height: 60px;
+  width: 100px;
+  float: right;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+.VhodKn a{
+  color: black;
+}
+
+/*  КАРУСЕЛЬ   */
+.carousel{
+  margin-top: 5%;
+  min-width: 80% !important;
+  height: 500px !important;
+}
+.carousel-inner img {
+  height: 500px !important;
+  margin: 0 auto;
+}
+
 .VhodKostyl{
   margin-right: 5px;
   background-color: white;
@@ -29,7 +53,6 @@ body{
 
 .logo{
   width: 100%;
-  display: flex;
   justify-content: flex-start;
   background: black;
 }
@@ -45,19 +68,6 @@ form{
   color: black;
 }
 
-.button{
-  margin-left: 95%
-  border: 3px solid white;
-  font-size: 30px;
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-  width: auto;
-  height: 110px;
-  text-align: center;
-  line-height: 60px;
-  font-family: Arial, sans-serif;
-}
 
 .vhod{
   width: 450px;
@@ -91,18 +101,13 @@ input[type="text"], input[type="password"]{
 .dws-submit{
   padding: 13px 36px;
   margin: 5px 0 20px 0;
-  font-size: 15px;
+  font-size: 13px;
   color: #fff;
   background-color: black;
   border: none;
+  width: 70px;
+  margin-left: 150px;
 }
-
-.graficlogo {
-  padding: 5px;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-* {box-sizing:border-box}
 
 .slideshow-container {
   max-width: 100%;
