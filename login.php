@@ -11,7 +11,6 @@
   <script type="text/javascript" src="script/script.js"></script>
 </head>
 <body>
-  <div class="Cont1">
   <header>
       <div class="logo">
          <a href="index.html"><img class="graficlogo" height="110px" src="img/logo3.png" alt="Logo"></a>
@@ -20,7 +19,6 @@
   <div class="telo">
   <div class="vhod">
     <img src="img/logo3.png" alt="">
-      <div class="WrongLog">Неправильный логин или пароль</div>
       <div class="dws-input">
          <input type="text" id="login" name="username" placeholder="Введите имя пользователя" class="log-input">
       </div>
@@ -33,14 +31,5 @@
          <a href="#">Забыли пароль?</a>
     </div>
   </div>
-</div>
-  <footer>
-     <div class="social">
-        <a href="https://mail.ru"><img src="img/em.png" alt=""></a>
-        <a href="https://google.com"><img src="img/goo.png" alt=""></a>
-        <a href="https://facebook.com"><img src="img/face.png" alt=""></a>
-        <a href="https://vk.com"><img src="img/vk.png" alt=""></a>
-     </div>
-  </footer>
 </body>
 </html>
