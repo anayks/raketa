@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Ракета</title>
   <link rel="stylesheet" href="style.css">
@@ -15,18 +15,42 @@
   <header>
       <div class="logo">
          <a href="index.html"><img class="graficlogo" height="110px" src="img/logo3.png" alt="Logo"></a>
-         <div class="VhodKn"><div class="VhonKn2"><b>Личный кабинет</b></div></div>
       </div>
   </header>
-<div class="FBlock"><div class="FB2"><h1>Мы открылись<h1></div></div>
   <!-- Заказать -->
-  <div class="Zakaz">
-    <div class="Zakaz1">
-      <div class="Zakaz__item">
-           <h2>Заказать</h2>
+  <div class="telo">
+  <div class="vhod">
+
+      <div class="Zak"><h1>Заказать<h1></div>
+
+      <div class="dws-input">
+         <input type="text" id="login" name="username" placeholder="Введите ФИО" class="log-input">
       </div>
+
+      <div class="dws-input">
+         <input type="password" id="password" name="password" placeholder="Введите номер телефона" class="log-input">
+      </div>
+
+      <div class="dws-input">
+         <input type="text" id="login" name="username" placeholder="Место доставки" class="log-input">
+      </div>
+
+         <div class="mtb20"><button class="down">Заказать звонок</button></div>
+         <br />
     </div>
   </div>
+
+ <!-- Че, мужики, лоpeм еспус? -->
+
+   <div class="IAus">
+      <div class="IAus2">lorem74lorem7ellorelorem>lorem74lorem74lorem74lorem74labellorelorem>lorem
+        74lorem74lorem74lorem74labellorelorem>lorem74lorem74lorem74lorem74labell
+        orelorem>lorem74lorem74lorem74lorem74labellorelorem>lorem74lorem74lorem74l
+        orem74labellorelorem>lorem74lorem74lorem74lorem74labellorelorem>lorem74lor
+        em74lorem74lorem74labellorelorem>lorem74lorem74lorem74lorem74labellorelore
+        m>lorem74lorem74lorem74lorem74labellorelorem>4lorem74labellorelorem</div>
+   </div>
+
  <!-- Вся Инфа -->
  <div class="advanteges__container1">
    <div class="advanteges">
