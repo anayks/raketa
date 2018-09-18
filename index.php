@@ -17,20 +17,38 @@
   <header>
       <div class="logo">
          <a href="index.php"><img class="graficlogo" height="110px" src="img/Logo4.png" alt="Logo"></a>
-         <div class="Art228"><b>Заказать</b></div>
+         <img class="Art228" src="img/Tube.png" alt="Обратная связь">
+         <!--<div class="Art228"><a>Оформить заказ</a></div> -->
       </div>
   </header>
   <div class="Rcolor"></div>
+  <div class="casino">
+    <br><br><br>
+    <center><h2>Загаловоку 1</h2><p>A oni есть?вфсоыуаиы оваиыол вмиоырвмилыовим</p></center>
+    <br><br><br>
+    <center><h2>Загаловоку 1</h2><p>A oni есть?вфсоыуаиыоваи ыолвмиоырв милыовим</p></center>
+    <br><br><br>
+    <center><h2>Загаловоку 1</h2><p>A oni есть?вфсоы уаиыоваиыо лвмиоырвм илыовим</p></center>
+  </div>
+
+  <div class="casino777">
+    <br><br><br>
+    <center><h2>Загаловоку 1</h2><p>A oni есть?вфсоыуа иыоваиыо лвмио ырвмилы овим</p></center>
+    <br><br><br>
+    <center><h2>Загаловоку 1</h2><p>A oni есть?вфсо ыуаи ыоваиыол вмиоы рвмилыовим</p></center>
+    <br><br><br>
+    <center><h2>Загаловоку 1</h2><p>A oni есть?вфсоыуа иыоваиыолвм иоырвм илыовим</p></center>
+  </div>
 <div id="demo" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/carousel1.png" alt="Los Angeles" width="1100" height="500">
+      <img src="img/SlideGR1.png" alt="Los Angeles" width="1100" height="100%">
     </div>
     <div class="carousel-item">
-      <img src="img/carousel2.png" alt="Chicago" width="1100" height="500">
+      <img src="img/SlideGR2.png" alt="Chicago" width="1100" height="800">
     </div>
     <div class="carousel-item">
-      <img src="img/carousel3.png" alt="New York" width="1100" height="500">
+      <img src="img/SlideGR3.png" alt="New York" width="1100" height="800">
     </div>
   </div>
    <a class="carousel-control-prev" href="#demo" data-slide="prev">
