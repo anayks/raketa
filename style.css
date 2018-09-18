@@ -89,6 +89,17 @@ body{
   background: #2A3940;
 }
 
+.carousel-inner img {
+      width: 70%;
+      height: 26vh;
+      margin-left: 15%;
+  }
+
+#demo {
+  margin-left: 15%;
+  width: 70%;
+}
+
 .logo{
   width: 100%;
   justify-content: flex-start;
@@ -117,7 +128,7 @@ form{
   justify-content: center;
 }
 
-.carousel-control-next{
+.carousel-control-next, .carousel-control-prev{
   background: #000;
 }
 

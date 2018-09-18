@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Ракета</title>
-  <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="img/rocket.logo" type="image/x-icon">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <script type="text/javascript" src="script/jquery-1.12.0.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
   <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
@@ -19,26 +21,24 @@
       </div>
   </header>
   <div class="Rcolor"></div>
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+<div id="demo" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img/carousel1.png" alt="Первый слайд">
+      <img src="img/carousel1.png" alt="Los Angeles" width="1100" height="500">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/carousel2.png" alt="Второй слайд">
+      <img src="img/carousel2.png" alt="Chicago" width="1100" height="500">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/carousel3.png" alt="Третий слайд">
+      <img src="img/carousel3.png" alt="New York" width="1100" height="500">
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-  <span class="sr-only">Previous</span>
-</a>
-<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-  <span class="sr-only">Next</span>
-</a>
+   <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
 </div>
   <div class="telo"><!--
   <div class="vhod">
