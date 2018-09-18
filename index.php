@@ -14,14 +14,15 @@
 <body>
   <header>
       <div class="logo">
-         <a href="index.html"><img class="graficlogo" height="110px" src="img/logo3.png" alt="Logo"></a>
+         <a href="index.php"><img class="graficlogo" height="110px" src="img/Logo4.png" alt="Logo"></a>
+         <div class="Art228"><b>Заказать</b></div>
       </div>
   </header>
   <!-- Заказать -->
-  <div class="telo">
+  <div class="telo"><!--
   <div class="vhod">
 
-      <div class="Zak"><h1>Заказать<h1></div>
+ <div class="Zak"><h1>Заказать<h1></div>
 
       <div class="dws-input">
          <input type="text" id="login" name="username" placeholder="Введите ФИО" class="log-input">
@@ -40,8 +41,6 @@
     </div>
   </div>
 
- <!-- Че, мужики, лоpeм еспус? -->
-
    <div class="IAus">
       <div class="IAus2">lorem74lorem7ellorelorem>lorem74lorem74lorem74lorem74labellorelorem>lorem
         74lorem74lorem74lorem74labellorelorem>lorem74lorem74lorem74lorem74labell
@@ -50,7 +49,7 @@
         em74lorem74lorem74labellorelorem>lorem74lorem74lorem74lorem74labellorelore
         m>lorem74lorem74lorem74lorem74labellorelorem>4lorem74labellorelorem</div>
    </div>
-
+   -->
  <!-- Вся Инфа -->
  <div class="advanteges__container1">
    <div class="advanteges">

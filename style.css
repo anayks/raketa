@@ -12,7 +12,15 @@ li{
 }
 body{
   font-family: 'Roboto', sans-serif;
-  background: #21C7F1;
+}
+
+.Art228{
+  margin-right: 20px;
+  margin-top: 30px;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
 }
 
 .VhodKn{
@@ -93,7 +101,7 @@ body{
 .logo{
   width: 100%;
   justify-content: flex-start;
-  background: black;
+  background: #f0f2eb;
 }
 
 a{
@@ -105,13 +113,11 @@ form{
 
 .telo a{
   color: black;
-  background: #21C7F1;
 }
 
 .telo{
-  background: #21C7F1;
+  background: #fff6f6;
   padding-top: 100px;
-  display: flex;
   justify-content: center;
 }
 
@@ -119,7 +125,7 @@ form{
   padding-top: 40px;
   width: 400px;
   height: 500px;
-  background-color: #21C7F1;
+  background-color: #A9CCC7;
   text-align: center;
   outline: 2px solid #000;
   justify-content: center;
@@ -322,7 +328,7 @@ nav{
   background: black;
 }
 .advanteges__container1{
-  background: #21C7F1;
+  background: #f0f2eb;
   display: flex;
   justify-content: center;
 }
