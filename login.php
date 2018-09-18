@@ -13,23 +13,27 @@
 <body>
   <header>
       <div class="logo">
-         <a href="index.html"><img class="graficlogo" height="110px" src="img/logo3.png" alt="Logo"></a>
+         <a href="index.html"><img class="graficlogo" height="110px" src="img/Logo4.png" alt="Logo"></a>
       </div>
   </header>
-  <div class="telo">
-  <div class="vhod">
-    <img src="img/logo3.png" alt="">
+    <div class="Rcolor"></div>
+  <div class="teloR">
+  <div class="vhodR">
+    <img src="img/Logo4.png" alt="">
       <div class="WrongLog">Неправильный логин или пароль</div>
+
       <div class="dws-input">
          <input type="text" id="login" name="username" placeholder="Введите имя пользователя" class="log-input">
       </div>
+
       <div class="dws-input">
          <input type="password" id="password" name="password" placeholder="Введите пароль" class="log-input">
       </div>
+
          <div class="dws-submit" name="submit">Войти</div>
-         <div class="dws-submit" name="submit">Регистрация</div>
          <br />
-         <a href="#">Забыли пароль?</a>
+    </div>
+  </div>
     </div>
   </div>
 </body>
