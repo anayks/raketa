@@ -18,7 +18,28 @@
          <div class="Art228"><b>Заказать</b></div>
       </div>
   </header>
-  <!-- Заказать -->
+  <div class="Rcolor"></div>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/carousel1.png" alt="Первый слайд">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/carousel2.png" alt="Второй слайд">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/carousel3.png" alt="Третий слайд">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
   <div class="telo"><!--
   <div class="vhod">
 

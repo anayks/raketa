@@ -76,15 +76,6 @@ body{
 }
 
 /*  КАРУСЕЛЬ которой нет  */
-.carousel{
-  margin-top: 5%;
-  min-width: 80% ;
-  height: 500px ;
-}
-.carousel-inner img {
-  height: 500px ;
-  margin: 0 auto;
-}
 
 .VhodKostyl{
   margin-right: 5px;
@@ -111,6 +102,11 @@ a{
 form{
 }
 
+.Rcolor{
+  background: #fff6f6;
+  padding-top: 100px;
+}
+
 .telo a{
   color: black;
 }
@@ -119,6 +115,10 @@ form{
   background: #fff6f6;
   padding-top: 100px;
   justify-content: center;
+}
+
+.carousel-control-next{
+  background: #000;
 }
 
 .vhod{
