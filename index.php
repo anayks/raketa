@@ -17,7 +17,7 @@
   <header>
       <div class="logo">
          <a href="index.php"><img class="graficlogo" height="110px" src="img/Logo4.png" alt="Logo"></a>
-         <img class="Art228" src="img/Tube.png" alt="Обратная связь">
+         <img class="Art228" src="img/Tube.png" alt="Обратная связь" onclick="jQuery('#mask').show()">
          <!--<div class="Art228"><a>Оформить заказ</a></div> -->
       </div>
   </header>
@@ -58,10 +58,27 @@
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
-  <div class="telo"><!--
+<div class="advanteges__container2">
+  <div class="advanteges2">
+    <div class="adventeges__item2">
+       <h2>О нас</h2>
+       <p>Мы новая компания которая блаблаба бал блаалала балаб лабал балалба</p>
+    </div>
+    <div class="adventeges__item2">
+       <h2>Инфы будет меньше</h2>
+       <p>Почему нельзя сразу все делать нормально?</p>
+    </div>
+   <div class="adventeges__item2">
+      <h2>Достижения</h2>
+      <p>Я устал, помогите</p>
+   </div>
+  </div>
+ </div>
+  <div class="telo">
+  <div id="mask" onclick="jQuery('#mask').hide()">
   <div class="vhod">
-
- <div class="Zak"><h1>Заказать<h1></div>
+  <div class="Canse1"><img src="img/cancel.png"></div>
+      <div class="Zak"><h1><h1></div>
 
       <div class="dws-input">
          <input type="text" id="login" name="username" placeholder="Введите ФИО" class="log-input">
@@ -74,21 +91,13 @@
       <div class="dws-input">
          <input type="text" id="login" name="username" placeholder="Место доставки" class="log-input">
       </div>
-
-         <div class="mtb20"><button class="down">Заказать звонок</button></div>
+        <br>
+      <div class="dws-submit2" name="submit"><b>Заказать</b></div>
          <br />
     </div>
-  </div>
-
-   <div class="IAus">
-      <div class="IAus2">lorem74lorem7ellorelorem>lorem74lorem74lorem74lorem74labellorelorem>lorem
-        74lorem74lorem74lorem74labellorelorem>lorem74lorem74lorem74lorem74labell
-        orelorem>lorem74lorem74lorem74lorem74labellorelorem>lorem74lorem74lorem74l
-        orem74labellorelorem>lorem74lorem74lorem74lorem74labellorelorem>lorem74lor
-        em74lorem74lorem74labellorelorem>lorem74lorem74lorem74lorem74labellorelore
-        m>lorem74lorem74lorem74lorem74labellorelorem>4lorem74labellorelorem</div>
-   </div>
-   -->
+    </div>
+    </div>
+   <div class="Rcolor"></div>
  <!-- Вся Инфа -->
  <div class="advanteges__container1">
    <div class="advanteges">

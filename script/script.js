@@ -26,7 +26,7 @@ jQuery(document).ready(function() {
 					G = 0;
 					return 0;
 				}
-				if(userPass.length == 0) 
+				if(userPass.length == 0)
 				{
 					//Если дурак блять не ввёл пароль
 					G = 0;
