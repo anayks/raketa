@@ -75,11 +75,11 @@
   </div>
  </div>
   <div class="telo">
-  <div id="mask" onclick="jQuery('#mask').hide()">
+  <div id="mask">
   <div class="vhod">
-  <div class="Canse1"><img src="img/cancel.png"></div>
+  <div class="Canse1"  onclick="jQuery('#mask').hide()"><img src="img/cancel.png"></div>
       <div class="Zak"><h1><h1></div>
-
+      <div class="ObratnayaS"><h2><b>Обратная связь</b></h2><br><p>Оставьте, пожалуйста, ваш номер телефона и инициалы, и мы вам перезвоним.</p></div>
       <div class="dws-input">
          <input type="text" id="login" name="username" placeholder="Введите ФИО" class="log-input">
       </div>
@@ -88,15 +88,46 @@
          <input type="password" id="password" name="password" placeholder="Введите номер телефона" class="log-input">
       </div>
 
-      <div class="dws-input">
-         <input type="text" id="login" name="username" placeholder="Место доставки" class="log-input">
-      </div>
         <br>
-      <div class="dws-submit2" name="submit"><b>Заказать</b></div>
+      <div class="dws-submit2" name="submit"><h2>Отправить</h2></div>
          <br />
     </div>
     </div>
     </div>
+
+   <div class="EOZ" onclick="jQuery('#mask1').show()">Оформить заказ</div>
+
+   <div class="telo">
+   <div id="mask1">
+   <div class="vhod1">
+   <div class="Canse1"  onclick="jQuery('#mask1').hide()"><img src="img/cancel.png"></div>
+       <div class="Zak"><h1><h1></div>
+       <div class="ObratnayaS"><h2><b>Обратная связь</b></h2><br><p>Оставьте, пожалуйста, ваш номер телефона и инициалы, и мы вам перезвоним.</p></div>
+       <div class="dws-input">
+          <input type="text" placeholder="Введите ФИО">
+       </div>
+       <div class="dws-input">
+          <input type="text" placeholder="Введите номер телефона">
+       </div>
+       <div class="dws-input">
+          <input type="text" placeholder="Адрес отправки">
+       </div>
+       <div class="dws-input">
+          <input type="text" placeholder="Адрес доставки">
+       </div>
+       <div class="dws-input">
+          <input type="text" placeholder="Длина и ширина груза">
+       </div>
+       <div class="dws-input">
+          <input type="text" placeholder="Вес груза">
+       </div>
+         <br>
+       <div class="dws-submit3" name="submit"><h2>Отправить</h2></div>
+          <br />
+     </div>
+     </div>
+     </div>
+
    <div class="Rcolor"></div>
  <!-- Вся Инфа -->
  <div class="advanteges__container1">
