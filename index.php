@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Ракета</title>
-  <link rel="shortcut icon" href="img/rocket.logo" type="image/x-icon">
+  <link rel="shortcut icon" href="img/rocket.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -16,12 +16,14 @@
 <body>
   <header>
       <div class="logo">
-         <a href="index.php"><img class="graficlogo" height="110px" src="img/Logo4.png" alt="Logo"></a>
-         <img class="Art228" src="img/Tube.png" alt="Обратная связь" onclick="jQuery('#mask').show()">
+         <div class='lggg1'><a href="index.php"><img class="graficlogo" height="110px" src="img/Logo4.png" alt="Logo"></a></div>
+         <div class='lggg2'><h2>ТК-Ракета</h2></div>
+         <div class="lggg3"><img class="Art228" src="img/Tube.png" alt="Обратная связь" onclick="jQuery('#mask').show()"></div>
          <!--<div class="Art228"><a>Оформить заказ</a></div> -->
       </div>
   </header>
-  <div class="Rcolor"></div>
+  <div class="Flexim"><div class="RcolorFlex"><h1>О нашей компании...<h1></p></div>
+  </div>
   <div class="casino">
     <br><br><br>
     <center><h2>Загаловоку 1</h2><p>A oni есть?вфсоыуаиы оваиыол вмиоырвмилыовим</p></center>
@@ -43,12 +45,24 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="img/SlideGR1.png" alt="Los Angeles" width="1100" height="100%">
+      <div class="carousel-caption d-none d-md-block">
+          <h3>О нас</h3>
+          <p>Мы молодая компания ыыыыыы ыы ы</p>
+      </div>
     </div>
     <div class="carousel-item">
       <img src="img/SlideGR2.png" alt="Chicago" width="1100" height="800">
+      <div class="carousel-caption d-none d-md-block">
+          <h3>О нас</h3>
+          <p>Мы молодая компания ыыыыыы ыы ы</p>
+      </div>
     </div>
     <div class="carousel-item">
       <img src="img/SlideGR3.png" alt="New York" width="1100" height="800">
+      <div class="carousel-caption d-none d-md-block">
+          <h3>О нас</h3>
+          <p>Мы молодая компания ыыыыыы ыы ы</p>
+      </div>
     </div>
   </div>
    <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -58,6 +72,9 @@
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
+
+<!--ХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХ НЕ ЗАБУДЬ ПОМЕНЯТЬ ИНФУ ТУТ ЧХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХ -->
+
 <div class="advanteges__container2">
   <div class="advanteges2">
     <div class="adventeges__item2">
@@ -95,7 +112,7 @@
     </div>
     </div>
 
-   <div class="EOZ" onclick="jQuery('#mask1').show()">Оформить заказ</div>
+   <div class="Geoz"><div class="EOZ" onclick="jQuery('#mask1').show()">Оформить заказ</div></div>
 
    <div class="telo">
    <div id="mask1">
