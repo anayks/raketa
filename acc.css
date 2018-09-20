@@ -1,0 +1,37 @@
+.TableB {
+	height: 55px;
+	width: 12.5%;
+	text-align: center;
+}
+
+#TableQ {
+	width: 78%;
+	margin-top: 40px;
+	margin-left: 11%;
+}
+
+.TableA {
+	padding-left: 2%;
+	height: 30px;
+}
+
+.TableH {
+	height: 55px;
+	width: 12.5%;
+	text-align: center;
+	color: black;
+	background: #fff78c;
+}
+
+.TableR {
+	height: 55px;
+	width: 12.5%;
+	text-align: center;
+	color: black;
+	background: #c4f0c5;
+}
+
+.TableH:hover {
+	background: #97de95;
+	cursor: pointer;
+}
