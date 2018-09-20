@@ -97,7 +97,10 @@
   <div class="Canse1"  onclick="jQuery('#mask').hide()"><img src="img/cancel.png"></div>
       <div class="Zak"><h1><h1></div>
       <div class="ObratnayaS"><h2><b>Обратная связь</b></h2><br><p>Оставьте, пожалуйста, ваш номер телефона и инициалы, и мы вам перезвоним.</p></div>
-      <div class="dws-input">
+
+      <div class="Err"><p>Ошибка при заполнении<p></div>  <!-- ОШИБКА -->
+
+        <div class="dws-input">
          <input type="text" id="login" name="username" placeholder="Введите ФИО" class="log-input">
       </div>
 
@@ -120,6 +123,7 @@
    <div class="Canse1"  onclick="jQuery('#mask1').hide()"><img src="img/cancel.png"></div>
        <div class="Zak"><h1><h1></div>
        <div class="ObratnayaS"><h2><b>Обратная связь</b></h2><br><p>Оставьте, пожалуйста, ваш номер телефона и инициалы, и мы вам перезвоним.</p></div>
+       <div class="Err"><p>Ошибка при заполнении<p></div>
        <div class="dws-input">
           <input type="text" placeholder="Введите ФИО">
        </div>
