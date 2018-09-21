@@ -11,7 +11,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
-  <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
   <header>
@@ -22,24 +21,24 @@
          <!--<div class="Art228"><a>Оформить заказ</a></div> -->
       </div>
   </header>
-  <div class="Flexim"><div class="RcolorFlex"><h1>О нашей компании...<h1></p></div>
+  <div class="Flexim"><div class="RcolorFlex"><h1>О нашей компании:<h1></p></div>
   </div>
   <div class="casino">
     <br><br><br>
-    <center><h2>Загаловоку 1</h2><p>A oni есть?вфсоыуаиы оваиыол вмиоырвмилыовим</p></center>
+    <center><h2>Высокое качество</h2><p>Мы всегда следим за своими заказами и стараемся их выполнять ещё лучше!</p></center>
     <br><br><br>
-    <center><h2>Загаловоку 1</h2><p>A oni есть?вфсоыуаиыоваи ыолвмиоырв милыовим</p></center>
+    <center><h2>Низкие цены</h2><p>Мы стараемся подобрать для клиента наиболее низкую цену для его удобства.</p></center>
     <br><br><br>
-    <center><h2>Загаловоку 1</h2><p>A oni есть?вфсоы уаиыоваиыо лвмиоырвм илыовим</p></center>
+    <center><h2>Гибкость</h2><p>Мы стараемся подстроиться под каждого клиента и найти лучший вариант для заказа.</p></center>
   </div>
 
   <div class="casino777">
     <br><br><br>
-    <center><h2>Загаловоку 1</h2><p>A oni есть?вфсоыуа иыоваиыо лвмио ырвмилы овим</p></center>
+    <center><h2>Постоянная поддержка</h2><p>По всем вопросам Вы можете обратиться по телефону, заказав звонок.</p></center>
     <br><br><br>
-    <center><h2>Загаловоку 1</h2><p>A oni есть?вфсо ыуаи ыоваиыол вмиоы рвмилыовим</p></center>
+    <center><h2>Способы оплаты</h2><p>Мы принимаем различные способы оплаты, чтобы Вам было удобно!</p></center>
     <br><br><br>
-    <center><h2>Загаловоку 1</h2><p>A oni есть?вфсоыуа иыоваиыолвм иоырвм илыовим</p></center>
+    <center><h2>По всей России</h2><p>Мы принимаем заказы по всей России до Урала.</p></center>
   </div>
 <div id="demo" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -47,21 +46,21 @@
       <img src="img/SlideGR1.png" alt="Los Angeles" width="1100" height="100%">
       <div class="carousel-caption d-none d-md-block">
           <h3>О нас</h3>
-          <p>Мы молодая компания ыыыыыы ыы ы</p>
+          <p>Мы - перспективная компания, которая недавно вошла на рынок!</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="img/SlideGR2.png" alt="Chicago" width="1100" height="800">
       <div class="carousel-caption d-none d-md-block">
           <h3>О нас</h3>
-          <p>Мы молодая компания ыыыыыы ыы ы</p>
+          <p>У нас часто проводятся акции, в которых можно сделать выгодный заказ!</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="img/SlideGR3.png" alt="New York" width="1100" height="800">
       <div class="carousel-caption d-none d-md-block">
           <h3>О нас</h3>
-          <p>Мы молодая компания ыыыыыы ыы ы</p>
+          <p>Мы всегда придумываем что-то новое и стремимся к лучшему!</p>
       </div>
     </div>
   </div>
@@ -79,15 +78,15 @@
   <div class="advanteges2">
     <div class="adventeges__item2">
        <h2>О нас</h2>
-       <p>Мы новая компания которая блаблаба бал блаалала балаб лабал балалба</p>
+       <p>Мы - молодая перспективная компания, которая недавно вошла на рынок и уже получила не мало хороших отзывов!</p>
     </div>
     <div class="adventeges__item2">
-       <h2>Инфы будет меньше</h2>
-       <p>Почему нельзя сразу все делать нормально?</p>
+       <h2>Технологичность</h2>
+       <p>Мы идем в ногу со временем и стараемся внедрять новейшие технологии!</p>
     </div>
    <div class="adventeges__item2">
       <h2>Достижения</h2>
-      <p>Я устал, помогите</p>
+      <p>Мы уже достигли немалого доверия от клиентов и намерены идти только дальше!</p>
    </div>
   </div>
  </div>
@@ -101,11 +100,11 @@
       <div class="Err"><p>Ошибка при заполнении<p></div>  <!-- ОШИБКА -->
 
         <div class="dws-input">
-         <input type="text" id="login" name="username" placeholder="Введите ФИО" class="log-input">
+         <input type="text" id="login" name="initial" placeholder="Введите ФИО" class="log-input">
       </div>
 
       <div class="dws-input">
-         <input type="password" id="password" name="password" placeholder="Введите номер телефона" class="log-input">
+         <input type="text" id="password" name="number" placeholder="Введите номер телефона" class="log-input">
       </div>
 
         <br>

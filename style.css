@@ -299,10 +299,15 @@ form{
 }
 
 .WrongLog{
-  margin-left: 75px;
-  background: red;
+  margin-left: 74px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: #ff5959;
   height: 30px;
-  width: 300px;
+  width: 301px;
+  font-weight: 400px;
+  font-size: 19px;
+  font-style: 'Verdana', sans-serif;
   display: none;
 }
 
