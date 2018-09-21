@@ -16,12 +16,12 @@
   <header>
       <div class="logo">
          <div class='lggg1'><a href="index.php"><img class="graficlogo" height="110px" src="img/Logo4.png" alt="Logo"></a></div>
-         <div class='lggg2'><h2>ТК-Ракета</h2></div>
+         <div class='lggg2'>Транспортная Компания "Ракетa"</div>
          <div class="lggg3"><img class="Art228" src="img/Tube.png" alt="Обратная связь" onclick="jQuery('#mask').show()"></div>
          <!--<div class="Art228"><a>Оформить заказ</a></div> -->
       </div>
   </header>
-  <div class="Flexim"><div class="RcolorFlex"><h1>О нашей компании:<h1></p></div>
+  <div class="Flexim"><div class="RcolorFlex"><h1>+7(123)4567890<h1></p></div>
   </div>
   <div class="casino">
     <br><br><br>

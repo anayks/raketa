@@ -43,7 +43,7 @@ body{
   position: absolute;
   width: 15%;
   padding-top: 50px;
-  padding-left: 10px;
+  padding-left: 15px;
   padding-right: 3px;
   float: left;
   display: block;
@@ -194,16 +194,16 @@ form{
 .Lima{
   padding-top: 25px;
   justify-content: flex-start;
-  height: 55%;
-  width: 3.2%;
+  height: 3.2vw;
+  width: 3.2vw;
   padding-left: 1.5%;
 }
 
 .Rima{
   padding-left: 90.9%;
   padding-top: 25px;
-  height: 55%;
-  width: 3.2%;
+  height: 3.2vw;
+  width: 3.2vw;
 }
 
 .telo a{
@@ -281,7 +281,7 @@ form{
 #mask {
     background-color:rgba(0,0,0,.3);
     height:100%;
-    position:fixed;
+    position:absolute;
     width:100%;
     top:0;
     justify-content: center;
@@ -443,8 +443,8 @@ input[type="text"], input[type="password"]{
 
 .Flexim{
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: flex-end;
+  text-align: right;
 }
 
 .RcolorFlex{
@@ -742,6 +742,12 @@ footer nav a:hover{
     width: 45%;
  }
 }
+
+.lggg2{
+  padding-top: 30px;
+  font-size: 30px;
+}
+
 @media screen and (max-width: 600px){
   .adventeges2{
     flex-direction: column;
@@ -801,6 +807,10 @@ footer nav a:hover{
     width: 80%;
     margin-left: 10%;
   }
+
+  .lggg2{
+    width: 20%;
+  }
 }
 
 @media screen and (max-width: 1364px) {
@@ -814,5 +824,12 @@ footer nav a:hover{
   .vhod{
     width: 80%;
     margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 680px){
+  .lggg2{
+    padding-top: 40px;
+    font-size: 20px;
   }
 }

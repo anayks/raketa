@@ -7,7 +7,7 @@
   <title>Личный кабинет</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="acc.css">
-  <link rel="shortcut icon" href="img/rocket.logo" type="image/x-icon">
+  <link rel="shortcut icon" href="img/rocket.ico" type="image/x-icon">
   <script type="text/javascript" src="script/jquery-1.12.0.min.js"></script>
   <script type="text/javascript" src="script/jqakk.js"></script>
 </head>
@@ -20,7 +20,7 @@
   </header>
   <div class="Rcolor2">
     <img class="Lima" src="img/atras.png">
-    <img class="Rima" src="img/atras.png">
+    <img class="Rima" src="img/atras2.png">
   </div>
       <table id="TableQ" cellspacing="0" cellpadding="2" border="1">
     <tr>
@@ -33,7 +33,7 @@
         <td class="TableB">Телефон</td>
         <td class="TableB">Подтверждение</td>
       </tr>
-      <?php 
+      <?php
       	$sql = mysql_connect('triniti.ru-hoster.com', 'lelelMu9', 'B6k1i0Sc2l');
 		mysql_select_db('lelelMu9');
 		mysql_set_charset('utf8');
