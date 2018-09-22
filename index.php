@@ -111,7 +111,7 @@
       </div>
 
         <br>
-      <div class="dws-submit2" name="submit"><h2>Отправить</h2></div>
+      <div class="FleximCenter"><div class="dws-submit2" name="submit"><h2>Отправить</h2></div></div>
          <br />
     </div>
     </div>
@@ -145,7 +145,7 @@
           <input type="text" placeholder="Вес груза" id="Weight">
        </div>
          <br>
-       <div class="dws-submit3" name="submit"><h2>Отправить</h2></div>
+       <div class="FleximCenter"><div class="dws-submit3" name="submit"><h2>Отправить</h2></div></div>
           <br />
      </div>
      </div>
