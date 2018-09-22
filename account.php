@@ -1,4 +1,22 @@
-﻿<!DOCTYPE html>
+<?php $sql = mysql_connect('triniti.ru-hoster.com', 'lelelMu9', 'B6k1i0Sc2l');
+mysql_select_db('lelelMu9');
+mysql_set_charset('utf8');
+$iden = $_COOKIE['ID'];
+if(empty($iden))
+{
+$iden = "-1";
+$query = "SELECT COUNT(*) FROM `accounts` where `IDen` = ".$iden."";
+$result = mysql_query($query);
+$row = mysql_fetch_row($result);
+if($row[0] == 0) 
+{ 
+header('Location: https://tc-raketa.ru');
+die ("Not authorized");
+}
+mysql_close($sql);
+}
+?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">

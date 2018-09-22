@@ -1,15 +1,18 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
+  <meta name="description" content="Транспортная компания 'Ракета' - инновационная развивающаяся компания, которая занимается грузовыми перевозками, квартирными переездами и перевозкой малогабаритных грузов по низким ценам." />
   <meta charset="UTF-8">
+  <meta name="yandex-verification" content="a1eba8b9bc4e6a5c" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Ракета</title>
+  <title> Транспортная Компания "Ракетa". Междугородние перевозки по низким ценам.</title>
   <link rel="shortcut icon" href="img/rocket.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="script/index.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -100,11 +103,11 @@
       <div class="Err"><p>Ошибка при заполнении<p></div>  <!-- ОШИБКА -->
 
         <div class="dws-input">
-         <input type="text" id="login" name="initial" placeholder="Введите ФИО" class="log-input">
+         <input type="text" id="fas" name="initial" placeholder="Введите ФИО" class="log-input">
       </div>
 
       <div class="dws-input">
-         <input type="text" id="password" name="number" placeholder="Введите номер телефона" class="log-input">
+         <input type="text" id="nib" name="number" placeholder="Введите номер телефона" class="log-input">
       </div>
 
         <br>
@@ -124,22 +127,22 @@
        <div class="ObratnayaS"><h2><b>Обратная связь</b></h2><br><p>Оставьте, пожалуйста, ваш номер телефона и инициалы, и мы вам перезвоним.</p></div>
        <div class="Err"><p>Ошибка при заполнении<p></div>
        <div class="dws-input">
-          <input type="text" placeholder="Введите ФИО">
+          <input type="text" placeholder="Введите ФИО" id="FIO">
        </div>
        <div class="dws-input">
-          <input type="text" placeholder="Введите номер телефона">
+          <input type="text" placeholder="Введите номер телефона" id="Number">
        </div>
        <div class="dws-input">
-          <input type="text" placeholder="Адрес отправки">
+          <input type="text" placeholder="Адрес отправки" id="OA">
        </div>
        <div class="dws-input">
-          <input type="text" placeholder="Адрес доставки">
+          <input type="text" placeholder="Адрес доставки" id="DA">
        </div>
        <div class="dws-input">
-          <input type="text" placeholder="Длина и ширина груза">
+          <input type="text" placeholder="Длина и ширина груза" id="DXS">
        </div>
        <div class="dws-input">
-          <input type="text" placeholder="Вес груза">
+          <input type="text" placeholder="Вес груза" id="Weight">
        </div>
          <br>
        <div class="dws-submit3" name="submit"><h2>Отправить</h2></div>
@@ -160,7 +163,7 @@
      <div class="adventeges__item">
         <a href="#"><img src="img/nout.png"></a>
         <h2>Автоматизация</h2>
-        <p>Мы идем в ногу со временем и стараемся постоянно добавлять что-то новое для упрощения работы.</p>
+        <p>Мы идем в ногу со временем и стараемся постоянно добавлять что-то новое для улучшения качества работы.</p>
      </div>
     <div class="adventeges__item">
        <a href="#"><img src="img/kybok.png"></a>
@@ -191,4 +194,5 @@
     $query = "INSERT INTO `guest` (`ip`, `date`) values ('".$ip."', '".date('d.m.y')."')";
     mysql_query($query);
   }
+  mysql_close($sql);
 ?>
