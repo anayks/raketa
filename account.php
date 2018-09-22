@@ -8,8 +8,8 @@ $iden = "-1";
 $query = "SELECT COUNT(*) FROM `accounts` where `IDen` = ".$iden."";
 $result = mysql_query($query);
 $row = mysql_fetch_row($result);
-if($row[0] == 0) 
-{ 
+if($row[0] == 0)
+{
 header('Location: https://tc-raketa.ru');
 die ("Not authorized");
 }
@@ -19,7 +19,7 @@ mysql_close($sql);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8 BOM">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Личный кабинет</title>
@@ -38,8 +38,8 @@ mysql_close($sql);
       </div>
   </header>
   <div class="Rcolor2">
-    <img class="Lima" src="img/atras.png">
-    <img class="Rima" src="img/atras2.png">
+    <img class="Lima" width="95px" src="img/atras.png">
+    <img class="Rima" width="95px" src="img/atras2.png">
   </div>
       <table id="TableQ" cellspacing="0" cellpadding="2" border="1">
     <tr>
