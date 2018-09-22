@@ -46,21 +46,21 @@
 <div id="demo" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/SlideGR1.png" alt="Los Angeles" width="1100" height="100%">
+      <img src="img/1.jpg" alt="Los Angeles" width="1100" height="100%">
       <div class="carousel-caption d-none d-md-block">
           <h3>О нас</h3>
           <p>Мы - перспективная компания, которая недавно вошла на рынок!</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/SlideGR2.png" alt="Chicago" width="1100" height="800">
+      <img src="img/2.jpg" alt="Chicago" width="1100" height="800">
       <div class="carousel-caption d-none d-md-block">
           <h3>О нас</h3>
           <p>У нас часто проводятся акции, в которых можно сделать выгодный заказ!</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/SlideGR3.png" alt="New York" width="1100" height="800">
+      <img src="img/3.jpg" alt="New York" width="1100" height="800">
       <div class="carousel-caption d-none d-md-block">
           <h3>О нас</h3>
           <p>Мы всегда придумываем что-то новое и стремимся к лучшему!</p>
@@ -156,17 +156,17 @@
  <div class="advanteges__container1">
    <div class="advanteges">
      <div class="adventeges__item">
-        <a href="#"><img src="img/like.png"></a>
+        <a href="#"><img src="img/palec.png"></a>
         <h2>Качество</h2>
         <p>Мы относимся с любовью к своей работе и стараемся совершенствоваться с каждым новым заказом.</p>
      </div>
      <div class="adventeges__item">
-        <a href="#"><img src="img/nout.png"></a>
+        <a href="#"><img src="img/pavuk.png"></a>
         <h2>Автоматизация</h2>
         <p>Мы идем в ногу со временем и стараемся постоянно добавлять что-то новое для улучшения качества работы.</p>
      </div>
     <div class="adventeges__item">
-       <a href="#"><img src="img/kybok.png"></a>
+       <a href="#"><img src="img/ebaniy.png"></a>
        <h2>Достижения</h2>
        <p>Мы стараемся для вас и только для вас! Каждая выполненная цель - это достижение для нас.</p>
     </div>
@@ -177,7 +177,7 @@
      <a href="https://mail.ru"><img src="img/em.png" alt=""></a>
      <a href="https://google.com"><img src="img/goo.png" alt=""></a>
      <a href="https://facebook.com"><img src="img/face.png" alt=""></a>
-     <a href="https://vk.com"><img src="img/vk.png" alt=""></a>
+     <a href="https://vk.com"><img src="img/vk_1.png" alt=""></a>
    </div>
  </footer>
 </body>

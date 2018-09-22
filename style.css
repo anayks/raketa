@@ -11,7 +11,7 @@ li{
   list-style: none;
 }
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
 }
 
 
@@ -160,7 +160,7 @@ body{
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background: #F0F2EB;
+  background: #9cd3d390;
 }
 
 .graficlogo{
@@ -181,12 +181,12 @@ form{
 }
 
 .Rcolor{
-  background: #fff6f6;
+  background: #b6e1e060;
   padding-top: 100px;
 }
 
 .Rcolor2{
-  background: #fff6f6;
+  background: #b6e1e060;
   height: 110px;
   display: flex;
 }
@@ -197,13 +197,15 @@ form{
   height: 3.2vw;
   width: 3.2vw;
   padding-left: 1.5%;
+  opacity: 0.3;
 }
 
 .Rima{
-  padding-left: 90.9%;
+  margin-left: 90.9%;
   padding-top: 25px;
   height: 3.2vw;
   width: 3.2vw;
+  cursor: pointer;
 }
 
 .telo a{
@@ -450,7 +452,8 @@ input[type="text"], input[type="password"]{
 .RcolorFlex{
   padding-top: 40px;
   height: 130px;
-  background: #fff6f6;
+  background: #b6e1e060;
+  padding-right: 1%;
   width: 100%;
 }
 
@@ -601,7 +604,7 @@ nav{
   background: black;
 }
 .advanteges__container1{
-  background: #f0f2eb;
+  background: #c3f1ff40;
   display: flex;
   justify-content: center;
 }
