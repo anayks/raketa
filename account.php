@@ -1,4 +1,4 @@
-<?php $sql = mysql_connect('triniti.ru-hoster.com', 'lelelMu9', 'B6k1i0Sc2l');
+﻿<?php $sql = mysql_connect('triniti.ru-hoster.com', 'lelelMu9', 'B6k1i0Sc2l');
 mysql_select_db('lelelMu9');
 mysql_set_charset('utf8');
 $iden = $_COOKIE['ID'];
@@ -34,12 +34,12 @@ mysql_close($sql);
   <div class="Cont1">
   <header>
       <div class="logo">
-         <a href="index.php"><img class="graficlogo" height="110px" src="img/Logo4.png" alt="Logo"></a>
+         <a href="index.php"><img class="graficlogo" height="110px" src="img/logo4.png" alt="Logo"></a>
       </div>
   </header>
   <div class="Rcolor2">
-    <img class="Lima" width="95px" src="img/atras.png">
-    <img class="Rima" width="95px" src="img/atras2.png">
+    <img class="Lima" src="img/atras.png">
+    <img class="Rima" src="img/atras2.png">
   </div>
       <table id="TableQ" cellspacing="0" cellpadding="2" border="1">
     <tr>

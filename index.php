@@ -18,7 +18,7 @@
 <body>
   <header>
       <div class="logo">
-         <div class='lggg1'><a href="index.php"><img class="graficlogo" height="110px" src="img/Logo4.png" alt="Logo"></a></div>
+         <div class='lggg1'><a href="index.php"><img class="graficlogo" height="110px" src="img/logo4.png" alt="Logo"></a></div>
          <div class='lggg2'>Транспортная Компания "Ракетa"</div>
          <div class="lggg3"><img class="Art228" src="img/Tube.png" alt="Обратная связь" onclick="jQuery('#mask').show()"></div>
          <!--<div class="Art228"><a>Оформить заказ</a></div> -->

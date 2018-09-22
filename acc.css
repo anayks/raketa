@@ -1,4 +1,4 @@
-.TableB {
+﻿.TableB {
 	height: 55px;
 	width: 12.5%;
 	text-align: center;
@@ -13,6 +13,7 @@
 
 #TableQ {
 	width: 78%;
+	font-size: 1.1vw;
 	margin-top: 40px;
 	margin-left: 11%;
 }
@@ -43,17 +44,37 @@
 	cursor: pointer;
 }
 
-@media screen and (max-width: 750px) {
-	#TableQ{
-		margin-left: 0;
+
+@media screen and (max-width: 1250px){
+	.Rima {
+		height: 8vw;
+		width: 8vw;
+		margin-left: 80%;
+	}
+	.Lima {
+		height: 8vw;
+		width: 8vw;
+	}
+	#TableQ {
+		font-size: 1.8vw;
+	}
+	#TableJ {
+		font-size: 1.8vw;
 	}
 }
 
-@media screen and (max-width: 1400px){
 
+@media screen and (max-width: 550px){
+	#TableQ {
+		font-size: 2.2vw;
+	}
+	#TableJ {
+		font-size: 2.2vw;
+	}
 }
 
 #TableJ {
+	font-size: 1.1vw;
 	display: none;
 	width: 78vw;
 	margin-top: 40px;

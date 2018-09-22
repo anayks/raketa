@@ -91,7 +91,6 @@ jQuery(document).ready(function(){
 		if(Gs[idn] == 1) 
 		{
 			var id = document.getElementById("Fz"+idn).innerHTML;
-			alert(id);
 			jQuery.ajax({
 				type: 'POST',
 				  url: 's.php',
