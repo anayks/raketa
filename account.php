@@ -19,7 +19,7 @@ mysql_close($sql);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8 BOM">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Личный кабинет</title>
@@ -41,7 +41,8 @@ mysql_close($sql);
     <img class="Lima" src="img/atras.png">
     <img class="Rima" src="img/atras2.png">
   </div>
-      <table id="TableQ" cellspacing="0" cellpadding="2" border="1">
+  <center><h1>Таблица</h1></center>
+  <table id="TableQ" cellspacing="0" cellpadding="2" border="1">
     <tr>
         <td class="TableB">ID</td>
         <td class="TableB">ФИО</td>

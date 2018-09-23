@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
+  <meta http-equiv="Cache-Control" content="max-age=3600">
   <meta name="description" content="Транспортная компания 'Ракета' - инновационная развивающаяся компания, которая занимается грузовыми перевозками, квартирными переездами и перевозкой малогабаритных грузов по низким ценам." />
   <meta charset="UTF-8">
   <meta name="yandex-verification" content="a1eba8b9bc4e6a5c" />
@@ -24,7 +25,7 @@
          <!--<div class="Art228"><a>Оформить заказ</a></div> -->
       </div>
   </header>
-  <div class="Flexim"><div class="RcolorFlex"><h1>+7(123)4567890<h1></p></div>
+  <div class="Flexim"><div class="RcolorFlex"><h1>+7(903)1328040<h1></p></div>
   </div>
   <div class="casino">
     <br><br><br>
