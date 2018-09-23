@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta http-equiv="Cache-Control" content="max-age=3600">
   <meta name="description" content="Транспортная компания 'Ракета' - инновационная развивающаяся компания, которая занимается грузовыми перевозками, квартирными переездами и перевозкой малогабаритных грузов по низким ценам." />
   <meta charset="UTF-8">
   <meta name="yandex-verification" content="a1eba8b9bc4e6a5c" />
@@ -19,13 +18,13 @@
 <body>
   <header>
       <div class="logo">
-         <div class='lggg1'><a href="index.php"><img class="graficlogo" height="110px" src="img/logo4.png" alt="Logo"></a></div>
+         <div class='lggg1'><a href="index.php"><img class="graficlogo" height="110px" src="img/Logo4.png" alt="Logo"></a></div>
          <div class='lggg2'>Транспортная Компания "Ракетa"</div>
          <div class="lggg3"><img class="Art228" src="img/Tube.png" alt="Обратная связь" onclick="jQuery('#mask').show()"></div>
          <!--<div class="Art228"><a>Оформить заказ</a></div> -->
       </div>
   </header>
-  <div class="Flexim"><div class="RcolorFlex"><h1>+7(903)1328040<h1></p></div>
+  <div class="Flexim"><div class="RcolorFlex"><h1>+7(123)4567890<h1></p></div>
   </div>
   <div class="casino">
     <br><br><br>
@@ -173,6 +172,38 @@
     </div>
    </div>
   </div>
+  <div id="map"></div>
+  <script>
+  function initMap() {
+    var uluru = {lat: 56.3058101, lng: 38.0887637};
+    var uluru2 = {lat: 57.5990429, lng: 39.8047965};
+    var uluru3 = {lat: 55.7057, lng: 37.6014614};
+    var uluru4 = {lat: 59.9004671, lng: 30.3063924};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 7,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+    var marker = new google.maps.Marker({
+      position: uluru2,
+      map: map
+    });
+    var marker = new google.maps.Marker({
+      position: uluru3,
+      map: map
+    });
+    var marker = new google.maps.Marker({
+      position: uluru4,
+      map: map
+    });
+  }
+      </script>
+      <script async defer
+       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLdVsOxYapIo5KrDPvXhgc_SpFTkPp3TM&callback=initMap">
+      </script>
 <footer>
    <div class="social">
      <a href="https://mail.ru"><img src="img/em.png" alt=""></a>

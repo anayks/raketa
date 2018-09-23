@@ -203,6 +203,12 @@ form{
   height: 5vw;
 }
 
+#map{
+  width: 100%;
+  height: 500px;
+}
+
+
 .Rima{
   margin-left: 83%;
   padding-top: 8px;
@@ -632,10 +638,6 @@ nav{
 .adventeges__item{
   width: 25%;
 }
-#map {
-  height: 700px;
-  width: 100%;
- }
  #ForM{
    margin-top: 30px;
    margin-bottom: 30px;
