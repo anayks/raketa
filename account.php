@@ -41,7 +41,7 @@ mysql_close($sql);
     <img class="Lima" src="img/atras.png">
     <img class="Rima" src="img/atras2.png">
   </div>
-  <center><h1>Таблица</h1></center>
+  <center><h1>Таблица последних заказов</h1></center>
   <table id="TableQ" cellspacing="0" cellpadding="2" border="1">
     <tr>
         <td class="TableB">ID</td>
